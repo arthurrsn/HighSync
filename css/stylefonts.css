@@ -6,3 +6,9 @@
         "wdth" 100,
         "YTLC" 500;
 }
+
+/* Montserrat */
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  }
