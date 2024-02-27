@@ -1,18 +1,15 @@
 /* CONFIGURAÇÃO LOGO */  
-.be-vietnam-pro-semibold-italic {
-    font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-
-.logo-config {
+.logo {
     color: #CED6FF;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-left: 40px;
 }
 /* FINAL CONFIGURAÇÃO LOGO */  
 
 /* CONFIGURAÇÃO FUNDO */
-
-/* FINAL CONFIGURAÇÃO FUNDO */
 html {
     background-color: black;
 }
+/* FINAL CONFIGURAÇÃO FUNDO */
