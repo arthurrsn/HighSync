@@ -30,7 +30,7 @@ header nav ul {
 header nav ul li {
     display: inline;
     padding-left: 10px;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
 header nav ul li:first-child {
@@ -62,4 +62,3 @@ header nav ul li a {
 html {
     background-color: black;
 }
-
