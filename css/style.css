@@ -2,9 +2,8 @@
 
 /* configuração da logo */  
 .logo {
-    color: #CED6FF;
-    font-weight: 700;
-    letter-spacing: -0.5px;
+    height: 45px;
+    margin-top: 10px;
     margin-left: 40px;
     cursor: pointer;
 }
