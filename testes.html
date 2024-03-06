@@ -1,0 +1,119 @@
+CSS FOOTER
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* CONFIGURAÇÃO HEADER */
+
+/* configuração da logo */  
+.logo {
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+/* configuração das categorias */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header nav {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+header nav ul li {
+    display: inline;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+
+header nav ul li:first-child {
+    margin-left: 0;
+}
+
+header nav ul li a {
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: white;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+/* configuração do botão */
+.botao {
+    background-color: black;
+    color: #ED3A85; 
+    border: 1px solid #ED3A85;
+    padding: 5px 25px;
+    cursor: pointer; 
+    margin-right: 20px;
+    border-radius: 30px;
+    font-weight: 300;
+    font-size: medium;
+}
+
+/* CONFIGURAÇÃO FUNDO */
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+/*CONFIGURAÇÃO FOOTER*/
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right, #fff, #d7dbdd);
+    color: black;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.logofooter {
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+HTML
+<hr>
+    <footer>
+        <div class="row">
+            <div class="col"></div>
+                <img src="img/logo footer.png" alt="logo" class="logofooter">
+                <p>Somos um grupo de estudantes apaixonados por inovação
+                e estamos aqui para compartilhar noso conhecimento 
+                e entusiasmo com você.</p>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </footer>
