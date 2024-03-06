@@ -1,4 +1,3 @@
-CSS FOOTER
 * {
     margin: 0;
     padding: 0;
@@ -85,7 +84,7 @@ footer {
 }
 
 .logofooter {
-    width: 80px;
+    width: 120px;
     margin-bottom: 30px;
 }
 
@@ -103,17 +102,79 @@ footer {
     padding: 10px;
 }
 
+.col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ED3A85;
+    margin: 20px 0;
+}
 HTML
-<hr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yvone Pimentel High Sync</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/stylefonts.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Logotipo -->
+            <div>
+                <img src='img/logo.png' alt='Logo' class='logo' href='#'>
+            </div>
+
+            <!-- Barra de navegação -->
+            <nav>
+                <ul class="nunito-sans">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">CURSOS</a></li>
+                    <li><a href="#">CONTATOS</a></li>
+                </ul>
+            </nav>
+
+            <!-- Botão de Login -->
+            <div>
+                <button class="botao montserrat">LOGIN</button>
+            </div>
+    </header>
+
     <footer>
         <div class="row">
-            <div class="col"></div>
+            <div class="col">
                 <img src="img/logo footer.png" alt="logo" class="logofooter">
                 <p>Somos um grupo de estudantes apaixonados por inovação
                 e estamos aqui para compartilhar noso conhecimento 
                 e entusiasmo com você.</p>
-            <div class="col"></div>
-            <div class="col"></div>
+            </div> 
+            <div class="col">
+                <h3>Contato</h3>
+                <p>R. Sebastião Malucelli, 1312</p>
+                <p>Bairro - Novo Mundo</p>
+                <p>Curtiba - PR, 81050-270</p>
+                <p class="email-id">contato@yp.com</p>
+                <h4>(41) 3567-8762</h4>
+            </div>    
+            <div class="col">
+                <h3>Links</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Cursos</li>
+                    <li>Contatos</li>
+                </ul>
+            </div>
             <div class="col"></div>
         </div>
     </footer>
+</body>
+</html>
