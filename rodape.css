@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: 3fff;
+    padding: 100px 0 3px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
